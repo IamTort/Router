@@ -30,6 +30,7 @@ final class RegisterViewController: UIViewController {
         UserDefaults.standard.set(true, forKey: Constants.userDefaultsKeyString)
         router?.toColor()
     }
+    
     @IBAction private func backAction(_ sender: Any) {
         dismiss(animated: true)
     }

@@ -16,6 +16,7 @@ final class RegisterRouter: BaseRouter {
     func toColor() {
         perform(segue: Constants.colorSceneString)
     }
+    
     func toBack() {
         perform(segue: Constants.loginSceneString)
     }

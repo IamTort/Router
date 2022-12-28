@@ -2,7 +2,6 @@
 //  Router
 //  Created by angelina on 27.12.2022.
 
-import Foundation
 import UIKit
 
 /// Базовый роутер
@@ -13,7 +12,7 @@ class BaseRouter: NSObject {
         static let waitString = "Ожидался"
     }
     
-    // MARK: - Private properties
+    // MARK: - Private visual component
     private var controller: UIViewController?
     
     // MARK: - Initializer

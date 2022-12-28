@@ -16,6 +16,7 @@ final class LaunchRouter: BaseRouter {
     func toLogin() {
         perform(segue: Constants.loginSceneString)
     }
+    
     func toRegister() {
         perform(segue: Constants.registerSceneString)
     }
