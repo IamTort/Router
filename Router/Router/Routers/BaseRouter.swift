@@ -13,8 +13,8 @@ class BaseRouter: NSObject {
         static let waitString = "Ожидался"
     }
     
-    // MARK: - Public properties
-    var controller: UIViewController?
+    // MARK: - Private properties
+    private var controller: UIViewController?
     
     // MARK: - Initializer
     init(controller: UIViewController) {

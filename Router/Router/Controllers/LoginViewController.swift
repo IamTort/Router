@@ -17,8 +17,8 @@ final class LoginViewController: UIViewController {
     @IBOutlet private weak var loginTextField: UITextField!
     @IBOutlet private weak var passwordTextField: UITextField!
     
-    // MARK: - Public properties
-    var router: LaunchRouter?
+    // MARK: - Private properties
+    private var router: LaunchRouter?
     
     // MARK: - LifeCycle
     override func viewDidLoad() {

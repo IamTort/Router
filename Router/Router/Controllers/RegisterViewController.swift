@@ -16,8 +16,8 @@ final class RegisterViewController: UIViewController {
     @IBOutlet private weak var loginTextField: UITextField!
     @IBOutlet private weak var passwordTextField: UITextField!
     
-    // MARK: - Public properties
-    var router: RegisterRouter?
+    // MARK: - Private properties
+    private var router: RegisterRouter?
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
