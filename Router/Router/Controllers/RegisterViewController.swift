@@ -5,7 +5,7 @@
 import UIKit
 
 /// Экран регистрации
-class RegisterViewController: UIViewController {
+final class RegisterViewController: UIViewController {
 
     // MARK: - Constants
     private enum Constants {
@@ -13,8 +13,8 @@ class RegisterViewController: UIViewController {
     }
     
     // MARK: - Private IBOutlet
-    @IBOutlet private weak var loginView: UITextField!
-    @IBOutlet private weak var passwordView: UITextField!
+    @IBOutlet private weak var loginTextField: UITextField!
+    @IBOutlet private weak var passwordTextField: UITextField!
     
     // MARK: - Public properties
     var router: RegisterRouter?

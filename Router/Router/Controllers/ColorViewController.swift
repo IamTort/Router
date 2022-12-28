@@ -5,5 +5,5 @@
 import UIKit
 
 /// Экран с цветом
-class ColorViewController: UIViewController {
+final class ColorViewController: UIViewController {
 }

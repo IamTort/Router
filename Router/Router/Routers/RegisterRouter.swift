@@ -6,11 +6,17 @@ import Foundation
 
 /// Роутер экрана регистрации
 final class RegisterRouter: BaseRouter {
+    // MARK: - Constants
+    private enum Constants {
+        static let colorSceneString = "toColor"
+        static let loginSceneString = "toBack"
+    }
+    
     // MARK: - Public methods
     func toColor() {
-        perform(segue: "toColor")
+        perform(segue: Constants.colorSceneString)
     }
     func toBack() {
-        perform(segue: "toBack")
+        perform(segue: Constants.loginSceneString)
     }
 }
